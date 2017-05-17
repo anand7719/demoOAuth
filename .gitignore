@@ -1,0 +1,11 @@
+/target
+.project
+.classpath
+.settings
+**/rebel.xml
+dependency-reduced-pom.xml
+mvnw
+mvnw.cmd
+/.clover/
+/.apt_generated/
+.factorypath

@@ -1,0 +1,17 @@
+security:
+  filter-order: 5
+logging:
+  level:
+    com.demo : info
+    org.springframework.security: info
+demo:
+  sso:
+    service-validate-url: https://demosso.nowhere.com/sso/validate
+  oauth:
+    grantTypeClientTokenExpiration:
+      service_ticket: 7600
+      client_credentials: 7600
+      GEMS-service_ticket: 7600
+server:
+  context-path: /demoOAuth         
+   
