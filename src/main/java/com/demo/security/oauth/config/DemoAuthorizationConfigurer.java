@@ -48,7 +48,7 @@ public class DemoAuthorizationConfigurer extends AuthorizationServerConfigurerAd
 	@Override
 	public void configure(AuthorizationServerSecurityConfigurer oauthServer) throws Exception {
 		oauthServer
-		.passwordEncoder(new BCryptPasswordEncoder())
+		//.passwordEncoder(new BCryptPasswordEncoder())
 			.checkTokenAccess("permitAll()");
 
 	}

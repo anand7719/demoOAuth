@@ -2,8 +2,8 @@ security:
   filter-order: 5
 logging:
   level:
-    com.demo : info
-    org.springframework.security: info
+    com.demo : debug
+    org.springframework.security: debug
 demo:
   sso:
     service-validate-url: https://demosso.nowhere.com/sso/validate

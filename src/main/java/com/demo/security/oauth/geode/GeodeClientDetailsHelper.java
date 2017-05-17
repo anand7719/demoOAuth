@@ -24,7 +24,8 @@ public class GeodeClientDetailsHelper {
 		e.setAuthorizedGrantTypes(grantSet);
 		
 		e.setClientId("TEST");
-		e.setClientSecret("$2a$10$ja0qvmrEQn/Bmz3RXTvOyu3qfB12hcXyEkRxnGWHUAys45z5ldTfu"); //password
+		//e.setClientSecret("$2a$10$ja0qvmrEQn/Bmz3RXTvOyu3qfB12hcXyEkRxnGWHUAys45z5ldTfu"); //password
+		e.setClientSecret("password");
 		e.setCreatedDateTime(Calendar.getInstance().getTimeInMillis());
 		e.setRefreshTokenValidityInSeconds(10000);
 		
