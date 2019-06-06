@@ -8,3 +8,4 @@ To Reproduce the issue
 2. Comment "e.setClientSecret("password");" line 28 @ GeodeClientDetailsHelper.getByClientId()
 
 TEST 1
+TEST 2
