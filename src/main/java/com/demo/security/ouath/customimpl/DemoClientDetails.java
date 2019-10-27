@@ -8,6 +8,9 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.security.oauth2.provider.ClientDetails;
 
+/**
+Docs goes here
+**/
 public class DemoClientDetails implements ClientDetails {
 
 	private static final long serialVersionUID = 1L;
