@@ -89,6 +89,7 @@ public class DemoClientDetails implements ClientDetails {
 	@Override
 	public boolean isAutoApprove(String scope) {
 		return false;
+
 	}
 	
 
