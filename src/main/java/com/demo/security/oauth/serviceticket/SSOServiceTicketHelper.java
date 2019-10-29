@@ -19,6 +19,8 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 import com.demo.security.oauth.serviceticket.model.SSOTicketModel;
 
+/**
+**/
 @Component
 public class SSOServiceTicketHelper {
 	private static final Logger LOGGER = LoggerFactory.getLogger(SSOServiceTicketHelper.class);
