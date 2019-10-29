@@ -36,7 +36,7 @@ public class DemoClientDetails implements ClientDetails {
 		this.refreshTokenValiditySeconds = refreshTokenValiditySeconds;
 		this.additionalInformation = additionalInformation;
 		authorities =  new HashSet<GrantedAuthority>(AuthorityUtils.commaSeparatedStringToAuthorityList(String.join(",", scope)));
-		
+	
 	}
 	@Override
 	public String getClientId() {
