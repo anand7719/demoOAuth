@@ -88,6 +88,5 @@ public class DemoClientDetails implements ClientDetails {
 	public boolean isAutoApprove(String scope) {
 		return false;
 	}
-	
 
 }
