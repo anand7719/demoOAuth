@@ -12,6 +12,7 @@ import org.springframework.security.oauth2.provider.ClientDetails;
 Docs goes here
 TEST
 TEST
+sdsdsd
 **/
 public class DemoClientDetails implements ClientDetails {
 
